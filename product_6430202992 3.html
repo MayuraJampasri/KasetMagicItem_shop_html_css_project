@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<style>
+.log{
+  color: red;
+  height: 50px;
+  width: 130px;
+  line-height: 50px;
+  border: 2px solid red;
+  border-radius: 60px;
+  margin-top: 0%;
+  float: right;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+} 
+.log:hover{
+  background-color:#85C1E9; 
+  border-color: #85C1E9;
+  color: black;
+  cursor: pointer;
+}
+h1{
+  color: green;
+  text-align: left;
+  font-family: "Audiowide", sans-serif;
+}
+body{
+    background-color: #85C1E9;
+    margin: 0;
+    padding: 0;
+  }
+div{
+    color: cadetblue;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #F2F3F4 ;
+    margin: 15px 10px 15px 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    column-gap: 5px;
+    row-gap: 15px;
+    width: 100%;
+    height: 100%;
+}
+.grid-item
+{                  
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: azure;
+    cursor: pointer;
+}
+.grid-item:hover{background-color: #F7DC6F ;
+                 color: blue;
+                 box-shadow: 10px 10px 5px gray;
+                 border-color: #F7DC6F;}
+.colar
+{
+  width: 100%;
+  height: 20px;
+  background-color: red;
+}
+.logo{
+  padding: 0%;
+  margin: auto;
+  margin-top: -40px;
+  height:270px ;
+  width:270px;    
+  background-color: #F7DC6F; ;
+  border-radius: 100%;
+  border: 3px solid #F7DC6F;
+} 
+.head{
+  width: 100%;
+  height: 200px;
+}
+.img{
+  margin: auto;
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+}
+.price{
+  border-radius: 60px;
+  font-family: "Audiowide", sans-serif;
+}
+h3{
+  height: 50px;
+  width: 130px;
+  line-height: 50px;
+  border:2px solid white;
+  border-radius: 60px;
+  text-align: center;
+  margin-left: 40px;
+  background-color: white;
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+}
+ button {
+  height: 50px;
+  width: 190px;
+  margin: auto;
+  box-sizing: border-box;
+  border: 2px solid #58D68D;
+  border-radius: 60px;
+  font-family:"Audiowide", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #58D68D;
+  background-color: azure;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #79b0a1;
+  border-color: #79b0a1;
+  color: #D5F5E3;
+}
+button:active{
+  background-color:white;
+  color:#79b0a1;
+}
+.footer{
+  width: 100%;
+  background-color: red;
+}
+.footer p{
+  text-align: center;
+  color: black;
+  font-family: "Audiowide", sans-serif;
+}
+.footer p:hover{
+  color: #F7DC6F;}
+.badge {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-family: "Audiowide", sans-serif;
+  font-size: 20px;
+}
+.price4 {
+  text-decoration: line-through;
+  color: red;
+  font-family: "Audiowide", sans-serif;
+  border-radius: 60px;
+}
+.discount{
+  color: cadetblue;
+  font-family: "Audiowide", sans-serif;
+  border-radius: 60px;
+}
+.feedback {
+  background-color : #31B0D5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 60px;
+  border-color: #46b8da;
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+  box-shadow: 5px 5px 5px black;
+  border: 2px solid white;}
+
+#header{
+  display:flex;
+  
+  align-items: center;
+}
+</style>
+
+</head>
+<body>
+  <div class="head">
+  <p class="log">sign in</p>
+  <h1 id="header"><img src="Doraemon_product/KU_Logo6.png" width="89.7px" height="78.91px" alt="logo KU"style="padding: 10px;">Kaset Megic Item Shop</h1>
+</div>
+  
+    <p class="feedback">Welcome !!</p>
+ 
+ <!--ต้องทำการ์ดสินค้า 9 อัน-->
+<div class="colar"></div>
+ <div class="logo">
+   <img src="Doraemon_product/KU_Logo6.png" width="269.125px" height="236.75px"alt="logo KU" style="margin-top: 15px;" alt ="KU_Logo">
+ </div>
+ <h3>Item</h3>
+  <div class="grid-container">
+    <div class="grid-item">
+        <div class="img">
+         <img src="Doraemon_product/กระเป๋าคุณหมอ.jpg" height="191.5px" width="340px" alt="กระเป๋าคุณหมอ"></div>
+        <h2 class="name"><strong>กระเป๋าคุณหมอ</strong><span class="badge">New</span></h2>
+        <div class="price">1,000,000 Bath</div> 
+        <button type="button">Add to cart</button>
+    </div>
+    <div class="grid-item">
+      <div class="img">
+       <img src="Doraemon_product/เครื่องสร้างภูมิทัศน์จำลอง.jpg" height="191.5px" width="340px" alt="เครื่องสร้างภูมิทัศน์จำลอง"></div>
+      <h2 class="name"><strong>เครื่องสร้างภูมิทัศน์จำลอง</strong></h2>
+      <div class="price">500,000 Bath</div>
+      <button type="button">Add to cart</button>
+  </div>
+  <div class="grid-item">
+    <div class="img">
+     <img src="Doraemon_product/กล้องเปลี่ยนเสื้อผ้า.jpg" height="191.5px" width="340px" alt="กล้องเปลี่ยนเสื้อผ้า"></div>
+    <h2 class="name"><strong>กล้องเปลี่ยนเสื้อผ้า</strong><span class="badge">New</span></h2>
+    <div class="price">50,000 Bath</div>
+    <button type="button">Add to cart</button>
+</div>
+<div class="grid-item">
+  <div class="img">
+   <img src="Doraemon_product/ไฟฉายย่อส่วน.jpg" height="191.5px" width="340px" alt="ไฟฉายย่อส่วน"></div>
+  <h2 class="name"><strong>ไฟฉายย่อส่วน</strong><span class="badge">Sale 20%</span></h2>
+   <p class="price4">300,000 Bath</p>
+     <div class="discount">> 240,000 Bath <</div>
+  <button type="button">Add to cart</button>
+</div>
+<div class="grid-item">
+  <div class="img">
+   <img src="Doraemon_product/ขนมให้สัตว์เชื่อง.jpg" height="191.5px" width="340px" alt="ขนมให้สัตว์เชื่อง"></div>
+  <h2 class="name"><strong>ขนมให้สัตว์เชื่อง</strong></h2>
+  <div class="price">30,000 Bath</div>
+  <button type="button">Add to cart</button>
+</div>
+<div class="grid-item">
+  <div class="img">
+   <img src="Doraemon_product/ตู้โทรศัพท์ติ๊ต่าง.jpg" height="191.5px" width="340px" alt="ตู้โทรศัพท์ติ๊ต่าง"></div>
+  <h2 class="name"><strong>ตู้โทรศัพท์ติ๊ต่าง</strong></h2>
+  <div class="price">600,000 Bath</div>
+  <button type="button">Add to cart</button>
+</div>
+<div class="grid-item">
+  <div class="img">
+   <img src="Doraemon_product/บ้านรากไม้.jpg" height="191.5px" width="340px" alt="บ้านรากไม้"></div>
+  <h2 class="name"><strong>บ้านรากไม้</strong></h2>
+  <div class="price">1,000,000 Bath</div>
+  <button type="button">Add to cart</button>
+</div>
+<div class="grid-item">
+  <div class="img">
+   <img src="Doraemon_product/ประตูไปไหนก็ได้.jpg" height="191.5px" width="340px" alt="ประตูไปไหนก็ได้"></div>
+  <h2 class="name"><strong>ประตูไปไหนก็ได้</strong></h2>
+  <div class="price">1,500,000 Bath</div>
+  <button type="button">Add to cart</button>
+</div>
+<div class="grid-item">
+  <div class="img">
+   <img src="Doraemon_product/ผ้าคลุมกาลเวลา.jpg" height="191.5px" width="340px" alt="ผ้าคลุมกาลเวลา"></div>
+  <h2 class="name"><strong>ผ้าคลุมกาลเวลา</strong></h2>
+  <div class="price">1,500,000 Bath</div>
+  <button type="button">Add to cart</button>
+</div>
+  </div> 
+  <div class="footer">
+    <p>  ∧,,,∧<br>( ̳• · • ̳)<br>Thank you</p>
+  </div>
+</body>
+</html>
